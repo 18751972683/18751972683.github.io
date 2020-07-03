@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title>my new blog</title>
-    <link href="/2020/07/02/my-new-blog/"/>
-    <url>/2020/07/02/my-new-blog/</url>
+    <title>闩锁效应（latch up）详解</title>
+    <link href="/2020/07/03/%E9%97%A9%E9%94%81%E6%95%88%E5%BA%94latch-up/"/>
+    <url>/2020/07/03/%E9%97%A9%E9%94%81%E6%95%88%E5%BA%94latch-up/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>在CMOS集成电路中，闩锁效应不容忽视。这篇文章将从0开始给大家介绍闩锁效应（Latch-up），以及有效抑制闩锁效应的方法。<br>##</p><h1 id="一、背景知识"><a href="#一、背景知识" class="headerlink" title="一、背景知识"></a>一、背景知识</h1><h2 id="双极结型晶体管（Bipolar-Junction-Transistor—BJT）"><a href="#双极结型晶体管（Bipolar-Junction-Transistor—BJT）" class="headerlink" title="双极结型晶体管（Bipolar Junction Transistor—BJT）"></a>双极结型晶体管（Bipolar Junction Transistor—BJT）</h2><p><img src="https://raw.githubusercontent.com/stephenjsnju/blog_images/master/images/latchup_figure1.png" srcset="/img/loading.gif" alt="avatar"><br>图1展示了典型的NPN型BJT。我们以此为例展开分析。</p><p>BJT工作时多子和少子都参与运行，因此成为双极型晶体管，BJT为三端器件，包括：基极（Base）、集电极（Collector）和发射极（Emitter）。其中集电区和基区之间有集电结，发射区和基区之间有发射结。在制造工艺上，发射区掺杂浓度最高，用于发射载流子；基区很薄，而且掺杂浓度最低，一般为几微米到几十微米，用于传送和控制载流子；集电区掺杂浓度低于发射区，且面积大，用于收集载流子。</p>]]></content>
     
     
+    <categories>
+      
+      <category>CMOS晶体管</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CMOS晶体管 半导体物理</tag>
+      
+    </tags>
     
   </entry>
   
@@ -44,22 +56,9 @@
   
   
   <entry>
-    <title>我的第一篇博客文章</title>
-    <link href="/2020/07/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
-    <url>/2020/07/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="晶体管的工作原理"><a href="#晶体管的工作原理" class="headerlink" title="晶体管的工作原理"></a>晶体管的工作原理</h1><h2 id="第一小节"><a href="#第一小节" class="headerlink" title="第一小节"></a>第一小节</h2><p>我们通常用晶体管来设计集成电路</p><h2 id="第二小节"><a href="#第二小节" class="headerlink" title="第二小节"></a>第二小节</h2>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hello World</title>
-    <link href="/2020/07/02/hello-world/"/>
-    <url>/2020/07/02/hello-world/</url>
+    <link href="/2020/07/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2020/07/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
