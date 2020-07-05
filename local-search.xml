@@ -4,6 +4,53 @@
   
   
   <entry>
+    <title>hexo建站备忘</title>
+    <link href="/2020/07/05/hexo%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98/"/>
+    <url>/2020/07/05/hexo%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98/</url>
+    
+    <content type="html"><![CDATA[<h1 id="jafoisdfjse"><a href="#jafoisdfjse" class="headerlink" title="jafoisdfjse"></a>jafoisdfjse</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>数字集成电路后端工程师要求</title>
+    <link href="/2020/07/05/%E6%95%B0%E5%AD%97%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%90%8E%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%A6%81%E6%B1%82/"/>
+    <url>/2020/07/05/%E6%95%B0%E5%AD%97%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%90%8E%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%A6%81%E6%B1%82/</url>
+    
+    <content type="html"><![CDATA[<h2 id="一、华为海思"><a href="#一、华为海思" class="headerlink" title="一、华为海思"></a>一、华为海思</h2><h3 id="ASIC开发工程师——后端要求"><a href="#ASIC开发工程师——后端要求" class="headerlink" title="ASIC开发工程师——后端要求"></a>ASIC开发工程师——后端要求</h3><div class="note note-success">            <ol><li>负责ASIC芯片物理设计及验证，在芯片PPA（性能、功耗、成本）达成、设计/工艺窗口匹配、交付时间上提供有竞争力的解决方案；同时承载新工艺下的设计流程与方法学准备；</li><li>负责ASIC芯片DFT设计及验证，在芯片测试成本、覆盖率、失效率、交付时间上为量产测试/老化验证提供有竞争力的解决方案及测试向量；同时承载新工艺的测试诊断、协助工艺问题快速定位。</li></ol>          </div><h3 id="ASIC开发工程师——后端技术"><a href="#ASIC开发工程师——后端技术" class="headerlink" title="ASIC开发工程师——后端技术"></a>ASIC开发工程师——后端技术</h3><div class="note note-primary">            <ol><li>微电子、计算机、通信工程、数学、自动化、材料、物理等相关专业本科及以上学历；</li><li>熟练掌握深亚微米后端物理设计流程，了解Synopsys/Cadence等数字芯片物理设计工具、Calibre等物理验证工具及PT等时序验证工具；</li><li>熟悉IC DFT或IC逻辑设计流程，了解或能使用 Synopsys或 Mentor相关工具；</li><li>研究方向与先进半导体工艺制程及整合开发相关。</li></ol>          </div><h2 id="二、中兴微电子"><a href="#二、中兴微电子" class="headerlink" title="二、中兴微电子"></a>二、中兴微电子</h2><h3 id="IC开发工程师——后端要求"><a href="#IC开发工程师——后端要求" class="headerlink" title="IC开发工程师——后端要求"></a>IC开发工程师——后端要求</h3><div class="note note-success">            <ol><li>参与芯片的系统方案规划，包括时钟、复位、低功耗等；</li><li>负责从Netlist到GDSII的物理设计，包括布局布线、形式验证、静态时序分析、物理验证、功耗分析、串扰分析等工作；</li><li>负责芯片时序收敛，完成Timing Signoff；</li><li>负责芯片物理验证(DRC/LVS)。</li></ol>          </div><h3 id="IC开发工程师——后端技术"><a href="#IC开发工程师——后端技术" class="headerlink" title="IC开发工程师——后端技术"></a>IC开发工程师——后端技术</h3><div class="note note-primary">            <ol><li>微电子、通信等相关专业硕士及以上学历；</li><li>有相关课程背景，如数字集成电路、半导体器件基础、VLSI设计基础、专用集成电路设计等；</li><li>了解芯片设计实现流程（逻辑综合，DFT，布局布线等），对后端设计充满兴趣；</li><li>有后端相关EDA工具(如Design Compiler, EDI/ICC, PrimeTime, Virtuoso等)使用经验优先；</li><li>参与过IC设计相关课题者优先；</li><li>具备一定的编程经验；</li><li>具有良好的英语阅读和交流能力。</li></ol>          </div><h2 id="三、联发科"><a href="#三、联发科" class="headerlink" title="三、联发科"></a>三、联发科</h2><h3 id="Wireless-Communication-Chip-Design-engineer-job-description"><a href="#Wireless-Communication-Chip-Design-engineer-job-description" class="headerlink" title="Wireless Communication Chip Design engineer-job description"></a>Wireless Communication Chip Design engineer-job description</h3><div class="note note-success">            <ol><li>The verification and simulation on Wireless Connectivity chip development, Validation and debugging of function block and system level RTL design with system verilog and verilog</li><li>Function block and system architecture’s RTL simulation</li><li>FPGA validation and ASIC implementation of Function block and system architecture</li><li>Cowork with design engineer to develop automatic and randomized testbench with advanced coverage</li><li>Achieve system level verification through teamwork with design engineer, systems architecture engineer and communication protocol engineer</li><li>Take over function block RTL design, and responsible for the design maintainance and modification of later projects</li></ol>          </div><h3 id="Wireless-Communication-Chip-Design-engineer-job-requirement"><a href="#Wireless-Communication-Chip-Design-engineer-job-requirement" class="headerlink" title="Wireless Communication Chip Design engineer-job requirement"></a>Wireless Communication Chip Design engineer-job requirement</h3><div class="note note-primary">            <ol><li>Familar with Verilog &amp; ASIC Design flow</li><li>Familar with FPGA &amp; ASIC verfication flow</li><li>Familar with wireless communication system</li><li>Familar with WiFi, Bluetooth , GPS system</li><li>Familar with Perl , Matlab, TCL, C, C++ , System Verilog, System is an plus</li></ol>          </div><h3 id="Physical-Design-Engineer-job-description"><a href="#Physical-Design-Engineer-job-description" class="headerlink" title="Physical Design Engineer-job description"></a>Physical Design Engineer-job description</h3><div class="note note-success">            <ol><li>Work on 28nm~7nm design implementation, methodology, and sign-off</li><li>Perform floorplan, clock planning, place and route, timing closure, and physical verification</li><li>Manage schedule, resolve design and flow issues, drive methodologies and execution</li></ol>          </div><h3 id="Physical-Design-Engineer-job-requirement"><a href="#Physical-Design-Engineer-job-requirement" class="headerlink" title="Physical Design Engineer-job requirement"></a>Physical Design Engineer-job requirement</h3><div class="note note-primary">            <ol><li>MS +2yrs in EE/CS</li><li>APR hands-on and tapeout experience in deep submicron technology</li><li>Tcl/Perl/script/C/C++ programming skill</li><li>Strong communication skills</li></ol>          </div>]]></content>
+    
+    
+    <categories>
+      
+      <category>CMOS集成电路后端设计</category>
+      
+      <category>技术发展</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>静态时序分析1</title>
+    <link href="/2020/07/05/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%901/"/>
+    <url>/2020/07/05/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%901/</url>
+    
+    <content type="html"><![CDATA[<h1 id="静态时序分析"><a href="#静态时序分析" class="headerlink" title="静态时序分析"></a>静态时序分析</h1><p>GDS: Geometry Data Standard</p><p>GDS:描述电路版图的一种格式，包括晶体管的大小、数量，物理位置和尺寸信息，连接线的物理尺寸和位置信息等。</p><pre><code class="hljs mermaid">flowchart TB    subgraph 连接线    c1(连接线)--&gt;c2(物理位置) &amp; c3(尺寸信息)    end    subgraph 物理排布    b1(物理排布)--&gt;b2(物理位置) &amp; b3(尺寸信息)    end    subgraph 晶体管    a1(晶体管)--&gt;a2(大小) &amp; a3(数量)    end</code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>闩锁效应（latch up）详解</title>
     <link href="/2020/07/03/%E9%97%A9%E9%94%81%E6%95%88%E5%BA%94latch-up/"/>
     <url>/2020/07/03/%E9%97%A9%E9%94%81%E6%95%88%E5%BA%94latch-up/</url>
@@ -29,11 +76,11 @@
   
   
   <entry>
-    <title>my blog</title>
-    <link href="/2020/07/02/my-blog/"/>
-    <url>/2020/07/02/my-blog/</url>
+    <title>静态时序分析介绍</title>
+    <link href="/2020/07/02/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/"/>
+    <url>/2020/07/02/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/</url>
     
-    <content type="html"><![CDATA[<h1 id="一、背景知识"><a href="#一、背景知识" class="headerlink" title="一、背景知识"></a>一、背景知识</h1><p>在CMOS集成电路中，闩锁效应不容忽视。这篇文章将从0开始给大家介绍闩锁效应（Latch-up），以及有效抑制闩锁效应的方法。</p><h2 id="1、双极结型晶体管"><a href="#1、双极结型晶体管" class="headerlink" title="1、双极结型晶体管"></a>1、双极结型晶体管</h2><p><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure1.png" srcset="/img/loading.gif" alt="NPN型BJT的结构示意图"></p><center><font size=2>图1 NPN型BJT的结构示意图、管芯剖面图和NPN型符号。[Copy from 电子工程世界]</font></center><br/>图1展示了典型的NPN型BJT。我们以此为例展开分析。BJT工作时多子和少子都参与运行，因此成为双极型晶体管，BJT为三端器件，包括：基极（Base）、集电极（Collector）和发射极（Emitter）。其中集电区和基区之间有集电结，发射区和基区之间有发射结。在制造工艺上，发射区掺杂浓度最高，用于发射载流子；基区很薄，而且掺杂浓度最低，一般为几微米到几十微米，用于传送和控制载流子；集电区掺杂浓度低于发射区，且面积大，用于收集载流子。<p>BJT本质是电流放大器件，用很小的基极电流$I_b$，就能控制较大的集电极电流$I_c$，从而实现放大作用。BJT处于放大状态的条件：发射结正偏，集电结反偏（对于NPN和PNP都适用）。</p><p>此时载流子动态过程如下：</p><ol><li><p>因为发射结正偏，所以发射区向基区注入电子，形成扩散电流 $I_{EN}$。同时从基区向发射区也有空穴的扩散运动，形成电流 $I_{EP}$（这是因为发射区的掺杂浓度远大于基区的掺杂浓度）。但其数量小，可忽略。所以发射极电流 $I_{E}\approx I_{EN}$（图2a）。</p></li><li><p>发射区的电子注入基区后，变成少数载流子。少部分遇到空穴复合掉，形成 $I_{BN}$。所以基极电流 $I_{B}\approx I_{BN}$。大部分到达了集电极的边缘。</p></li><li><p>因为集电极反偏，收集扩散到集电区边缘的电子，形成电流 $I_{CN}$ 。另外，集电结区的少子会形成漂移电流 $I_{CBO}$。<br><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure2.png" srcset="/img/loading.gif" alt="BJT处于放大区时载流子的动态过程">   </p><center><font size=2>图2 BJT处于放大区时载流子的动态过程</font></center></li></ol><h2 id="2、CMOS"><a href="#2、CMOS" class="headerlink" title="2、CMOS"></a>2、CMOS</h2><p>CMOS是由一个PMOS和一个NMOS组成，如图3所示。<br><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure3.png" srcset="/img/loading.gif" alt="NMOS和PMOS的截面图"></p><center><font size=2>图3 NMOS和PMOS的截面图[Copy from Wikipedia]</font></center><h1 id="二、Latch-up原理"><a href="#二、Latch-up原理" class="headerlink" title="二、Latch-up原理"></a>二、Latch-up原理</h1><p>Latch up 最易产生在易受外部干扰的I/O电路处, 也偶尔发生在内部电路。</p><p>Latch up 是指cmos晶片中, 在电源power VDD和地线GND(VSS)之间由于寄生的PNP和NPN双极性BJT相互影响而产生的一低阻抗通路, 它的存在会使VDD和GND之间产生大电流。</p><h2 id="1、Latch-up发生的条件"><a href="#1、Latch-up发生的条件" class="headerlink" title="1、Latch-up发生的条件"></a>1、Latch-up发生的条件</h2><ol><li><p>当两个BJT都导通，在VDD和GND之间产生低阻抗通路;</p></li><li><p>两个晶体管反馈回路（feedback loop）增益的乘积大于1（$\beta_{1}\times \beta_{2} \geq 1$）。</p></li></ol><p><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure4.png" srcset="/img/loading.gif" alt="latch-up的器件截面图和等效电路图"></p><center><font size=2>图4 latch-up的器件截面图和等效电路图</font></center><h2 id="2、Latch-up具体过程"><a href="#2、Latch-up具体过程" class="headerlink" title="2、Latch-up具体过程"></a>2、Latch-up具体过程</h2><p>如图4所示，在实际的CMOS器件中，P（PMOS的Source/Drain）—N(PMOS的N well)—P(P sub); N(PMOS的N well)—P(P sub)—N(NMOS的Source/Drain )形成两个BJT。</p><ol><li><p>QPNP为一垂直式PNP BJT, 基极(base)是nwell, 基极到集电极(collector)的电流增益 $\beta_{1}$ 可达数百倍；</p></li><li><p>QNPN是一侧面式的NPN BJT，基极为P substrate，基极到集电极(collector)的电流增益 $\beta_{2}$ 可达数十倍；</p></li><li><p>Rwell是nwell的寄生电阻，其值可以到20 $k\Omega$；Rsub是substrate电阻，其值从数百到几欧姆。</p></li><li><p>QPNP和QNPN形成npnp结构，构成可控硅（Silicon-controlled rectifier: SCR）电路。</p></li></ol><p>当无外界干扰未引起触发时，两个BJT处于截止状态，集电极电流是C-B的反向漏电流构成，电流增益非常小，此时Latch up不会产生。</p><p>当其中一个BJT的集电极电流受外部干扰突然增加到一定值时，此时BJT的发射结正偏，电流反馈到另一个BJT，最终的反馈回路引起的电流需要乘以增益 $\beta_{1}\times \beta_{2}$，此时为SCR的触发。从而使两个BJT因触发而导通，VDD至GND（VSS）间形成低抗通路，Latch up由此而产生。</p><p>如果（ $\beta_{1}\times \beta_{2} \geq 1$ ）满足，两个BJT将会持续产生高饱和电流，甚至在没有触发条件的时候。</p><h1 id="三、Latch-up产生机制和抑制方法"><a href="#三、Latch-up产生机制和抑制方法" class="headerlink" title="三、Latch-up产生机制和抑制方法"></a>三、Latch-up产生机制和抑制方法</h1><h2 id="1、Latch-up产生机制"><a href="#1、Latch-up产生机制" class="headerlink" title="1、Latch-up产生机制"></a>1、Latch-up产生机制</h2><ol><li><p>输入或输出电压（I/O的信号）高于VDD电压，芯片产生大电流，导致latch-up;</p></li><li><p>ESD静电加压，可能会从保护电路中引入少量带电载流子到阱或衬底中，导致latch-up;</p></li></ol><h2 id="2、Latch-up抑制方法"><a href="#2、Latch-up抑制方法" class="headerlink" title="2、Latch-up抑制方法"></a>2、Latch-up抑制方法</h2><ol><li><p>保持低于芯片的绝对最大额定值。</p></li><li><p>使用氧化物隔离槽(oxide trench)和掩埋氧化物(buried oxide)层隔离NMOS和PMOS器件：<br><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure5.png" srcset="/img/loading.gif" alt="Oxide trench"></p><center><font size=2>图5 Oxide trench and buried oxide layer to reduce the latch-up effect.</font></center><br/></li><li><p>如果不能使用oxide trench，可以使用guard rings。多子GuardRing ： P+ Ring环绕NMOS并接GND； N+ Ring环接PMOS并接VDD。使用多子保护环可以降低Rwell和Rsub的阻值，且可以阻止多数载流子到基极。少子GuardRing ： 制作在N阱中的N+ Ring环绕NMOS并接VDD; P+ Ring环绕PMOS并接GND。 使用少子保护环可以减少因为少子注入到阱或衬底引发的闩锁。<br><img src="https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@1.0/latchup_figure6.png" srcset="/img/loading.gif" alt="Guard rings"></p><center><font size=2>图6 Guard rings.</font></center><br/></li><li><p>减小正反馈环路的增益。减小寄生晶体管的放大倍数和Rw/Rs阻值都可以有效降低环路增益。增加阱和衬底掺杂浓度以降低Rwell和Rsub， 例如，使用逆向掺杂阱。使NMOS和PMOS保持足够的间距来降低引发SCR的可能。Sub接触孔和Well接触孔应尽量靠近源区。以降低Rwell和Rsub的阻值。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="静态时序分析"><a href="#静态时序分析" class="headerlink" title="静态时序分析"></a>静态时序分析</h1><p>GDS: Geometry Data Standard</p><p>GDS:描述电路版图的一种格式，包括晶体管的大小、数量，物理位置和尺寸信息，连接线的物理尺寸和位置信息等。</p><pre><code class="hljs mermaid">flowchart TB    subgraph 连接线    c1(连接线)--&gt;c2(物理位置) &amp; c3(尺寸信息)    end    subgraph 物理排布    b1(物理排布)--&gt;b2(物理位置) &amp; b3(尺寸信息)    end    subgraph 晶体管    a1(晶体管)--&gt;a2(大小) &amp; a3(数量)    end</code></pre><p>GDS有什么要求？</p><ol><li>功能，和RTL一致；</li><li>性能，满足预期性能目标；</li><li>物理规则，Fab可以制造；</li><li>功耗&amp;面积，IR Drop满足要求，功耗&amp;面积尽可能小。</li></ol><div class="note note-primary">            <p><font size=2><a href="https://blog.csdn.net/junning_wu/article/details/52527438" target="_blank" rel="noopener">IR Drop</a> : IR压降是指出现在集成电路中电源和地网络上电压下降或升高的一种现象。随着半导体工艺的演进金属互连线的宽度越来越窄，导致它的电阻值上升，所以在整个芯片范围内将存在一定的IR压降。IR压降的大小决定于从电源PAD到所计算的逻辑门单元之间的等效电阻的大小。</font></p>          </div>]]></content>
     
     
     <categories>
@@ -50,19 +97,6 @@
       <tag>静态时序分析</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2020/07/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2020/07/02/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    
     
   </entry>
   
