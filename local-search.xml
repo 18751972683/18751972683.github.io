@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Introduction to Tcl</title>
+    <link href="/2020/07/16/TCL%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
+    <url>/2020/07/16/TCL%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction-to-Tcl"><a href="#Introduction-to-Tcl" class="headerlink" title="Introduction to Tcl"></a>Introduction to Tcl</h1><h2 id="1-Tcl-basics-and-“Hello-World”-example"><a href="#1-Tcl-basics-and-“Hello-World”-example" class="headerlink" title="1. Tcl basics and “Hello World” example"></a>1. Tcl basics and “Hello World” example</h2><h3 id="1-About-Tcl"><a href="#1-About-Tcl" class="headerlink" title="(1) About Tcl"></a>(1) About Tcl</h3><div class="note note-success">            <ol><li>Scripting language</li><li>Stand for Tool Command Language</li><li>Build GUI with the TK toolkit extension</li><li>EDA industry standard scripting language</li></ol>          </div><h3 id="2-Tcl-Language-Basics"><a href="#2-Tcl-Language-Basics" class="headerlink" title="(2) Tcl Language Basics"></a>(2) Tcl Language Basics</h3><div class="note note-success">            <ol><li>String-based command language</li><li>Few fundamental constructs and rules</li><li>Basic syntax<ul><li>Command arg1 arg2 arg3</li><li>Command </li></ul></li></ol>          </div><h3 id="3-Tcl-Interpreter-Basics"><a href="#3-Tcl-Interpreter-Basics" class="headerlink" title="(3) Tcl Interpreter Basics"></a>(3) Tcl Interpreter Basics</h3><h3 id="4-Tcl-Interpreter"><a href="#4-Tcl-Interpreter" class="headerlink" title="(4) Tcl Interpreter"></a>(4) Tcl Interpreter</h3><h3 id="5-Hello-World-example"><a href="#5-Hello-World-example" class="headerlink" title="(5) Hello World example"></a>(5) Hello World example</h3><h3 id="6-Running-Tcl-Commands"><a href="#6-Running-Tcl-Commands" class="headerlink" title="(6) Running Tcl Commands"></a>(6) Running Tcl Commands</h3><h3 id="7-Creating-and-Running-Tcl-Scripts"><a href="#7-Creating-and-Running-Tcl-Scripts" class="headerlink" title="(7) Creating and Running Tcl Scripts"></a>(7) Creating and Running Tcl Scripts</h3><h3 id="8-Creating-and-Running-Scripts"><a href="#8-Creating-and-Running-Scripts" class="headerlink" title="(8) Creating and Running Scripts"></a>(8) Creating and Running Scripts</h3><h2 id="2-Syntax-and-operators"><a href="#2-Syntax-and-operators" class="headerlink" title="2. Syntax and operators"></a>2. Syntax and operators</h2><h2 id="3-Tcl-data-types"><a href="#3-Tcl-data-types" class="headerlink" title="3. Tcl data types"></a>3. Tcl data types</h2><pre><code class="hljs tcl"><span class="hljs-keyword">set</span> list_a &#123;<span class="hljs-number">1</span> <span class="hljs-number">2</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span>&#125;<span class="hljs-keyword">set</span> list_b [<span class="hljs-keyword">list</span>]<span class="hljs-keyword">set</span> list_a_length [<span class="hljs-keyword">expr</span>&#123;[<span class="hljs-keyword">llength</span> $list_a] - <span class="hljs-number">1</span>&#125;]<span class="hljs-keyword">for</span> &#123;<span class="hljs-keyword">set</span> i $list_a_length&#125;&#123;$i &gt;= <span class="hljs-number">0</span>&#125;&#123;<span class="hljs-keyword">incr</span> i <span class="hljs-number">-1</span>&#125;&#123;    <span class="hljs-keyword">lappend</span> list_b [<span class="hljs-keyword">lindex</span> $list_a $i]&#125;<span class="hljs-keyword">puts</span> $list_b</code></pre><h2 id="4-Control-structures"><a href="#4-Control-structures" class="headerlink" title="4. Control structures"></a>4. Control structures</h2><h2 id="5-Procedures-and-scope"><a href="#5-Procedures-and-scope" class="headerlink" title="5. Procedures and scope"></a>5. Procedures and scope</h2><h3 id="Global-Scope-Examples"><a href="#Global-Scope-Examples" class="headerlink" title="Global Scope Examples"></a>Global Scope Examples</h3><p>Global Scope Examples</p><pre><code class="hljs tcl"><span class="hljs-keyword">array</span> <span class="hljs-keyword">set</span> factorials &#123;<span class="hljs-number">1</span> <span class="hljs-number">1</span>&#125;    #初始化数组 <span class="hljs-number">1</span>！<span class="hljs-keyword">proc</span><span class="hljs-title"> factorial(x)</span>&#123;            #建立一个进程    <span class="hljs-keyword">global</span> factorials         #初始化全局变量    <span class="hljs-keyword">if</span> &#123;![<span class="hljs-keyword">info</span> exists factorials($x)]&#125;&#123;  #判断x!是否存在        <span class="hljs-keyword">puts</span> <span class="hljs-string">"Computing $x"</span>        <span class="hljs-keyword">set</span> factorials($x) \            [<span class="hljs-keyword">expr</span> &#123;$x * [factorial [<span class="hljs-keyword">expr</span> &#123;$x - <span class="hljs-number">1</span>&#125;]]&#125;]    &#125;    <span class="hljs-keyword">return</span> $factorials($x)  &#125;<span class="hljs-keyword">puts</span> [factorial <span class="hljs-number">10</span>]<span class="hljs-keyword">puts</span> [factorial <span class="hljs-number">5</span>]</code></pre><h2 id="6-IO-Commands"><a href="#6-IO-Commands" class="headerlink" title="6. IO Commands"></a>6. IO Commands</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>CMOS集成电路后端设计</category>
+      
+      <category>Tcl脚本语言</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Tcl</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>hexo建站备忘</title>
     <link href="/2020/07/05/hexo%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98/"/>
     <url>/2020/07/05/hexo%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98/</url>

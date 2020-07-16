@@ -19,7 +19,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>hexo建站备忘 - Hexo</title>
+  <title>Introduction to Tcl - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -205,8 +205,8 @@
               
   <div class="mt-3 post-meta">
     <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-    <time datetime="2020-07-05 18:22">
-      2020年7月5日 晚上
+    <time datetime="2020-07-16 00:54">
+      2020年7月16日 凌晨
     </time>
   </div>
 
@@ -216,7 +216,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      462 字
+      207 字
     </span>
   
 
@@ -226,7 +226,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      5
+      3
        分钟
     </span>
   
@@ -257,39 +257,37 @@
           <div class="post-content mx-auto" id="post">
             
             <article class="markdown-body">
-              <h1 id="hexo建站"><a href="#hexo建站" class="headerlink" title="hexo建站"></a>hexo建站</h1><h2 id="hexo初始化"><a href="#hexo初始化" class="headerlink" title="hexo初始化"></a>hexo初始化</h2><pre><code class="hljs python">npm install hexo -g     <span class="hljs-comment">#安装hexo</span>
-hexo init blog          <span class="hljs-comment">#初始化hexo,放在blog文件夹</span>
-cd blog                 <span class="hljs-comment">#命令行将文件夹cd到blog文件夹</span>
-hexo server <span class="hljs-keyword">or</span> hexo s  <span class="hljs-comment">#开启服务</span></code></pre>
-
-<h2 id="hexo新建文章和推送"><a href="#hexo新建文章和推送" class="headerlink" title="hexo新建文章和推送"></a>hexo新建文章和推送</h2><pre><code class="hljs python">hexo new post 我的第一篇博客  <span class="hljs-comment">#新建一篇文章，并且存放在_post文件夹中</span>
-hexo clean  
-hexo g           <span class="hljs-comment">#generate新的文件</span>
-hexo d           <span class="hljs-comment">#deploy文件到GitHub</span></code></pre>
-
-<h2 id="hexo图片管理和加速"><a href="#hexo图片管理和加速" class="headerlink" title="hexo图片管理和加速"></a>hexo图片管理和加速</h2><h3 id="CDN加速"><a href="#CDN加速" class="headerlink" title="CDN加速"></a>CDN加速</h3><div class="note note-primary">
-            <p><font size = 2>CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。——百度百科</font></p>
+              <h1 id="Introduction-to-Tcl"><a href="#Introduction-to-Tcl" class="headerlink" title="Introduction to Tcl"></a>Introduction to Tcl</h1><h2 id="1-Tcl-basics-and-“Hello-World”-example"><a href="#1-Tcl-basics-and-“Hello-World”-example" class="headerlink" title="1. Tcl basics and “Hello World” example"></a>1. Tcl basics and “Hello World” example</h2><h3 id="1-About-Tcl"><a href="#1-About-Tcl" class="headerlink" title="(1) About Tcl"></a>(1) About Tcl</h3><div class="note note-success">
+            <ol><li>Scripting language</li><li>Stand for Tool Command Language</li><li>Build GUI with the TK toolkit extension</li><li>EDA industry standard scripting language</li></ol>
           </div>
 
-<p>通过jsDelivr + Github可以建立免费快速的CDN服务。</p>
-<ol>
-<li>新建Github仓库</li>
-<li>克隆GitHub仓库到本地 <pre><code class="hljs python">git clone <span class="hljs-comment">#本地仓库地址</span></code></pre></li>
-<li>上传资源<br>复制需要上传的资源到本地git仓库（注：jsDelivr不支持加载超过20M的资源），在本地git仓库目录下右键 Git Bash Here，执行以下命令： <pre><code class="hljs python">git status     <span class="hljs-comment">#查看状态</span>
-git add .     <span class="hljs-comment">#添加所有文件到暂存区</span>
-git commit -m <span class="hljs-string">'第一次提交'</span>     <span class="hljs-comment">#把文件提交到仓库,添加描述</span>
-git push      <span class="hljs-comment">#推送至远程仓库</span></code></pre></li>
-<li>发布仓库<br>点击release，进行版本的发布。自定义发布版本号，添加标题和描述等。</li>
-<li>通过jsdelivr引用资源 <pre><code class="hljs python">使用方法：https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+<h3 id="2-Tcl-Language-Basics"><a href="#2-Tcl-Language-Basics" class="headerlink" title="(2) Tcl Language Basics"></a>(2) Tcl Language Basics</h3><div class="note note-success">
+            <ol><li>String-based command language</li><li>Few fundamental constructs and rules</li><li>Basic syntax<ul><li>Command arg1 arg2 arg3</li><li>Command </li></ul></li></ol>
+          </div>
 
-例如：https://cdn.jsdelivr.net/gh/stephenjsnju/cdn@<span class="hljs-number">1.0</span>/latchup_figuretitle.png
+<h3 id="3-Tcl-Interpreter-Basics"><a href="#3-Tcl-Interpreter-Basics" class="headerlink" title="(3) Tcl Interpreter Basics"></a>(3) Tcl Interpreter Basics</h3><h3 id="4-Tcl-Interpreter"><a href="#4-Tcl-Interpreter" class="headerlink" title="(4) Tcl Interpreter"></a>(4) Tcl Interpreter</h3><h3 id="5-Hello-World-example"><a href="#5-Hello-World-example" class="headerlink" title="(5) Hello World example"></a>(5) Hello World example</h3><h3 id="6-Running-Tcl-Commands"><a href="#6-Running-Tcl-Commands" class="headerlink" title="(6) Running Tcl Commands"></a>(6) Running Tcl Commands</h3><h3 id="7-Creating-and-Running-Tcl-Scripts"><a href="#7-Creating-and-Running-Tcl-Scripts" class="headerlink" title="(7) Creating and Running Tcl Scripts"></a>(7) Creating and Running Tcl Scripts</h3><h3 id="8-Creating-and-Running-Scripts"><a href="#8-Creating-and-Running-Scripts" class="headerlink" title="(8) Creating and Running Scripts"></a>(8) Creating and Running Scripts</h3><h2 id="2-Syntax-and-operators"><a href="#2-Syntax-and-operators" class="headerlink" title="2. Syntax and operators"></a>2. Syntax and operators</h2><h2 id="3-Tcl-data-types"><a href="#3-Tcl-data-types" class="headerlink" title="3. Tcl data types"></a>3. Tcl data types</h2><pre><code class="hljs tcl"><span class="hljs-keyword">set</span> list_a &#123;<span class="hljs-number">1</span> <span class="hljs-number">2</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span>&#125;
+<span class="hljs-keyword">set</span> list_b [<span class="hljs-keyword">list</span>]
+<span class="hljs-keyword">set</span> list_a_length [<span class="hljs-keyword">expr</span>&#123;[<span class="hljs-keyword">llength</span> $list_a] - <span class="hljs-number">1</span>&#125;]
+<span class="hljs-keyword">for</span> &#123;<span class="hljs-keyword">set</span> i $list_a_length&#125;&#123;$i &gt;= <span class="hljs-number">0</span>&#125;&#123;<span class="hljs-keyword">incr</span> i <span class="hljs-number">-1</span>&#125;&#123;
+    <span class="hljs-keyword">lappend</span> list_b [<span class="hljs-keyword">lindex</span> $list_a $i]
+&#125;
+<span class="hljs-keyword">puts</span> $list_b</code></pre>
 
-https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/source/css/gallery.css
+<h2 id="4-Control-structures"><a href="#4-Control-structures" class="headerlink" title="4. Control structures"></a>4. Control structures</h2><h2 id="5-Procedures-and-scope"><a href="#5-Procedures-and-scope" class="headerlink" title="5. Procedures and scope"></a>5. Procedures and scope</h2><h3 id="Global-Scope-Examples"><a href="#Global-Scope-Examples" class="headerlink" title="Global Scope Examples"></a>Global Scope Examples</h3><p>Global Scope Examples</p>
+<pre><code class="hljs tcl"><span class="hljs-keyword">array</span> <span class="hljs-keyword">set</span> factorials &#123;<span class="hljs-number">1</span> <span class="hljs-number">1</span>&#125;    #初始化数组 <span class="hljs-number">1</span>！
+<span class="hljs-keyword">proc</span><span class="hljs-title"> factorial(x)</span>&#123;            #建立一个进程
+    <span class="hljs-keyword">global</span> factorials         #初始化全局变量
+    <span class="hljs-keyword">if</span> &#123;![<span class="hljs-keyword">info</span> exists factorials($x)]&#125;&#123;  #判断x!是否存在
+        <span class="hljs-keyword">puts</span> <span class="hljs-string">"Computing $x"</span>
+        <span class="hljs-keyword">set</span> factorials($x) \
+            [<span class="hljs-keyword">expr</span> &#123;$x * [factorial [<span class="hljs-keyword">expr</span> &#123;$x - <span class="hljs-number">1</span>&#125;]]&#125;]
+    &#125;
+    <span class="hljs-keyword">return</span> $factorials($x)  
+&#125;
+<span class="hljs-keyword">puts</span> [factorial <span class="hljs-number">10</span>]
+<span class="hljs-keyword">puts</span> [factorial <span class="hljs-number">5</span>]</code></pre>
 
-https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/source/loading4.gif</code></pre>
-</li>
-</ol>
-
+<h2 id="6-IO-Commands"><a href="#6-IO-Commands" class="headerlink" title="6. IO Commands"></a>6. IO Commands</h2>
             </article>
             <hr>
             <div>
@@ -298,9 +296,9 @@ https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/sour
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/CV%E5%B7%A5%E7%A8%8B%EF%BC%88Ctrl-C-V%EF%BC%89/">CV工程（Ctrl C+V）</a>
+                      <a class="hover-with-bg" href="/categories/CMOS%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%90%8E%E7%AB%AF%E8%AE%BE%E8%AE%A1/">CMOS集成电路后端设计</a>
                     
-                      <a class="hover-with-bg" href="/categories/CV%E5%B7%A5%E7%A8%8B%EF%BC%88Ctrl-C-V%EF%BC%89/web%E5%89%8D%E7%AB%AF/">web前端</a>
+                      <a class="hover-with-bg" href="/categories/CMOS%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%90%8E%E7%AB%AF%E8%AE%BE%E8%AE%A1/Tcl%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/">Tcl脚本语言</a>
                     
                   </div>
                 
@@ -308,9 +306,7 @@ https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/sour
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
-                      <a class="hover-with-bg" href="/tags/web%E5%89%8D%E7%AB%AF/">web前端</a>
+                      <a class="hover-with-bg" href="/tags/Tcl/">Tcl</a>
                     
                   </div>
                 
@@ -323,18 +319,12 @@ https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/sour
                   <div class="post-prev col-6">
                     
                     
-                      <a href="/2020/07/16/TCL%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Introduction to Tcl</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </div>
                   <div class="post-next col-6">
                     
                     
-                      <a href="/2020/07/05/%E6%95%B0%E5%AD%97%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%90%8E%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%A6%81%E6%B1%82/">
-                        <span class="hidden-mobile">数字集成电路后端工程师要求</span>
+                      <a href="/2020/07/05/hexo%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98/">
+                        <span class="hidden-mobile">hexo建站备忘</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -499,7 +489,7 @@ https://cdn.jsdelivr.net/gh/Yafine/cdn@<span class="hljs-number">2.5</span>/sour
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "hexo建站备忘&nbsp;",
+        "Introduction to Tcl&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
