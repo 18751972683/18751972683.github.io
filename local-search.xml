@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>ESD保护电路</title>
+    <link href="/2020/07/18/ESD%E4%BF%9D%E6%8A%A4%E7%94%B5%E8%B7%AF/"/>
+    <url>/2020/07/18/ESD%E4%BF%9D%E6%8A%A4%E7%94%B5%E8%B7%AF/</url>
+    
+    <content type="html"><![CDATA[<h1 id="ESD保护电路"><a href="#ESD保护电路" class="headerlink" title="ESD保护电路"></a>ESD保护电路</h1><h2 id="ESD保护基本原理"><a href="#ESD保护基本原理" class="headerlink" title="ESD保护基本原理"></a>ESD保护基本原理</h2><p>ESD保护的基本思想：</p><ol><li>让静电通过一个低阻抗并联通道进行放电，同时将ESD电压钳制在一个足够低的电平，避免硅/金属互连线烧毁或者栅氧化层击穿；</li><li>输入保护分为单二极管、电阻结构和双二极管、电阻结构，还可以利用PN结的击穿特性；</li><li>正向偏置的二极管或者反向偏置的二极管都可以作为ESD保护器件。</li></ol><h2 id="ESD保护电路-1"><a href="#ESD保护电路-1" class="headerlink" title="ESD保护电路"></a>ESD保护电路</h2><h3 id="单二极管、电阻结构的ESD保护电路"><a href="#单二极管、电阻结构的ESD保护电路" class="headerlink" title="单二极管、电阻结构的ESD保护电路"></a>单二极管、电阻结构的ESD保护电路</h3><p><img src="ESD_figure1.png" srcset="/img/loading.gif" alt="ESD_figure1"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>CMOS集成电路后端设计</category>
+      
+      <category>数字电路设计</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>数电电路设计</tag>
+      
+      <tag>ESD保护电路</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Introduction to Tcl</title>
     <link href="/2020/07/16/TCL%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <url>/2020/07/16/TCL%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
@@ -110,7 +139,7 @@
     <link href="/2020/07/02/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/"/>
     <url>/2020/07/02/%E9%9D%99%E6%80%81%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/</url>
     
-    <content type="html"><![CDATA[<h1 id="静态时序分析"><a href="#静态时序分析" class="headerlink" title="静态时序分析"></a>静态时序分析</h1><p>GDS: Geometry Data Standard</p><p>GDS:描述电路版图的一种格式，包括晶体管的大小、数量，物理位置和尺寸信息，连接线的物理尺寸和位置信息等。</p><pre><code class="hljs mermaid">flowchart TB    subgraph 连接线    c1(连接线)--&gt;c2(物理位置) &amp; c3(尺寸信息)    end    subgraph 物理排布    b1(物理排布)--&gt;b2(物理位置) &amp; b3(尺寸信息)    end    subgraph 晶体管    a1(晶体管)--&gt;a2(大小) &amp; a3(数量)    end</code></pre><p>GDS有什么要求？</p><ol><li>功能，和RTL一致；</li><li>性能，满足预期性能目标；</li><li>物理规则，Fab可以制造；</li><li>功耗&amp;面积，IR Drop满足要求，功耗&amp;面积尽可能小。</li></ol><div class="note note-primary">            <p><font size=2><a href="https://blog.csdn.net/junning_wu/article/details/52527438" target="_blank" rel="noopener">IR Drop</a> : IR压降是指出现在集成电路中电源和地网络上电压下降或升高的一种现象。随着半导体工艺的演进金属互连线的宽度越来越窄，导致它的电阻值上升，所以在整个芯片范围内将存在一定的IR压降。IR压降的大小决定于从电源PAD到所计算的逻辑门单元之间的等效电阻的大小。</font></p>          </div>]]></content>
+    <content type="html"><![CDATA[<h1 id="静态时序分析"><a href="#静态时序分析" class="headerlink" title="静态时序分析"></a>静态时序分析</h1><h2 id="一、静态时序分析基本概念"><a href="#一、静态时序分析基本概念" class="headerlink" title="一、静态时序分析基本概念"></a>一、静态时序分析基本概念</h2><h3 id="1-静态时序分析的目的"><a href="#1-静态时序分析的目的" class="headerlink" title="1. 静态时序分析的目的"></a>1. 静态时序分析的目的</h3><h3 id="2-重要时间参数"><a href="#2-重要时间参数" class="headerlink" title="2. 重要时间参数"></a>2. 重要时间参数</h3><h2 id="二、静态时序分析模型"><a href="#二、静态时序分析模型" class="headerlink" title="二、静态时序分析模型"></a>二、静态时序分析模型</h2><h3 id="1-同步电路的静态时序分析模型"><a href="#1-同步电路的静态时序分析模型" class="headerlink" title="1. 同步电路的静态时序分析模型"></a>1. 同步电路的静态时序分析模型</h3><h3 id="2-时间参数与其模型上的位置"><a href="#2-时间参数与其模型上的位置" class="headerlink" title="2. 时间参数与其模型上的位置"></a>2. 时间参数与其模型上的位置</h3><h2 id="三、时间违例判定"><a href="#三、时间违例判定" class="headerlink" title="三、时间违例判定"></a>三、时间违例判定</h2><h3 id="1-判断建立时间、保持时间是否满足"><a href="#1-判断建立时间、保持时间是否满足" class="headerlink" title="1. 判断建立时间、保持时间是否满足"></a>1. 判断建立时间、保持时间是否满足</h3><h3 id="2-计算建立时间、保持时间的冗余"><a href="#2-计算建立时间、保持时间的冗余" class="headerlink" title="2. 计算建立时间、保持时间的冗余"></a>2. 计算建立时间、保持时间的冗余</h3><h3 id="3-计算系统最大时钟频率"><a href="#3-计算系统最大时钟频率" class="headerlink" title="3. 计算系统最大时钟频率"></a>3. 计算系统最大时钟频率</h3><p>GDS: Geometry Data Standard</p><p>GDS:描述电路版图的一种格式，包括晶体管的大小、数量，物理位置和尺寸信息，连接线的物理尺寸和位置信息等。</p><pre><code class="hljs mermaid">flowchart TB    subgraph 连接线    c1(连接线)--&gt;c2(物理位置) &amp; c3(尺寸信息)    end    subgraph 物理排布    b1(物理排布)--&gt;b2(物理位置) &amp; b3(尺寸信息)    end    subgraph 晶体管    a1(晶体管)--&gt;a2(大小) &amp; a3(数量)    end</code></pre><p>GDS有什么要求？</p><ol><li>功能，和RTL一致；</li><li>性能，满足预期性能目标；</li><li>物理规则，Fab可以制造；</li><li>功耗&amp;面积，IR Drop满足要求，功耗&amp;面积尽可能小。</li></ol><div class="note note-primary">            <p><font size=2><a href="https://blog.csdn.net/junning_wu/article/details/52527438" target="_blank" rel="noopener">IR Drop</a> : IR压降是指出现在集成电路中电源和地网络上电压下降或升高的一种现象。随着半导体工艺的演进金属互连线的宽度越来越窄，导致它的电阻值上升，所以在整个芯片范围内将存在一定的IR压降。IR压降的大小决定于从电源PAD到所计算的逻辑门单元之间的等效电阻的大小。</font></p>          </div>]]></content>
     
     
     <categories>
